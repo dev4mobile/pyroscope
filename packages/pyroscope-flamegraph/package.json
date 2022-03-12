@@ -19,10 +19,11 @@
     "watch": "NODE_ENV=production webpack --config ../../scripts/webpack/webpack.flamegraph.ts --watch"
   },
   "peerDependencies": {
-    "react": ">=16.14.0"
+    "@szhsin/react-menu": "^1.10.1",
+    "react": ">=16.14.0",
+    "true-myth": "^5.1.2"
   },
   "dependencies": {
-    "@pyroscope/models": "^0.0.2",
-    "true-myth": "^5.1.2"
+    "@pyroscope/models": "^0.0.2"
   }
 }
